@@ -9,8 +9,8 @@ import java.util.Scanner;
  */
 public class InicioApp {
 /**
- * Clase que recibe por teclado una cadena de caracteres y organiza al resto de clases para contar caracteres y palabras 
- * @param args
+ * Recibe por teclado una cadena de caracteres y organiza al resto de clases para contar caracteres y palabras 
+ * @param args Argumentos
  */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
