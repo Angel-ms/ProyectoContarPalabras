@@ -1,7 +1,16 @@
 package com;
 
+/**
+ * 
+ * @author alumno
+ *
+ */
 public class ContadorPalabras {
-
+	/**
+	 * 
+	 * @param cadena texto que se va a analizar
+	 * @return número de caracteres que no son espacios
+	 */
 	public static int contarCaracteresTotal(String cadena) {
 		int numeroDeLetras=0;
 		for(int i= 0; i< cadena.length(); i++) {
@@ -11,6 +20,11 @@ public class ContadorPalabras {
 		}		
 		return numeroDeLetras;
 	}
+	/**
+	 * 
+	 * @param cadena texto que se va a analizar
+	 * @return número de palabras separadas por espacios
+	 */
 	public static int contarNumeroPalabras(String cadena) {
 		int numeroDePalabras=0;
 		char caracterAnterior;
@@ -29,6 +43,11 @@ public class ContadorPalabras {
 		return numeroDePalabras;
 		
 	}
+	/**
+	 * 
+	 * @param cadena texto que se va a analizar
+	 * @return listado de todos los caracteres y el número que hay de cada uno
+	 */
 	public static int[] contarTodosCaracteres(String cadena) {
 		int[] unicode = new int[65536];
 		String cadenaSinTrim = cadena;
